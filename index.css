@@ -1,0 +1,84 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.containerHeader {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 6px;
+}
+
+.beneficio {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #9f9f9f;
+}
+
+.middleHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  margin-top: 12px;
+}
+
+.menuHeader {
+  display: flex;
+  gap: 32px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-evenly;
+  color: #9f9f9f;
+  gap: 11px;
+  margin-top: 10px;
+  align-items: flex-end;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .retangulo {
+  position: relative;
+  height: 390px;
+  width: 1440px;
+  top: 144px;
+  left: -3px;
+  opacity: 80%;
+  margin-top: 11px;
+} */
+
+/* .overlay {
+  position: absolute;
+  height: 390px;
+  width: 1440px;
+  top: 144px;
+  left: -3px;
+} */
+
+.containerOverlay {
+}
+
+.bannerOverlay {
+  width: 100%;
+}
+
+.frame {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 34px;
+}
+
+#oferta {
+  color: #f71963;
+}
